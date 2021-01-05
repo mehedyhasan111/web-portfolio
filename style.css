@@ -3,13 +3,15 @@ h1{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 .name-highlighter{
     color: orange;
 }
 .half-width{
     width: 40%;
-    float: left;
+    float:left;
     margin-left:2%;
     padding-left:3%;
     
@@ -17,3 +19,20 @@ body{
 .half-width img{
     width:100%;
 }
+.top-banner{
+    background-image: url("images/top-banner.png");
+    border:1px solid whitesmoke;
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato );
+    color:seashell;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
